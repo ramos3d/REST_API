@@ -38,9 +38,10 @@ To use this REST API structure, follow these steps:
 1. Clone the repository: **git clone https://github.com/ramos3d/REST_API.git**
 2. Set up the environment variables by creating a .env file in the project root directory. Refer to the provided .env.example file for the required variables.
 3. Customize the API logic in the api/APIReader.php file or create additional API-related files.
-4. Define additional routes and actions in the routes/route.php file as per your API requirements.
+4. Define additional routes and actions in the **routes/route.php** file as per your API requirements.
 5. Deploy the application to a PHP-enabled web server.
-6. Access the defined endpoints using the appropriate URLs.
+6. Access the defined endpoints using the appropriate URLs. (example: http://localhost/REST_API/users)
+
 
 The REST API Structure provides a basic foundation for building RESTful APIs in PHP. It includes essential components like routing, environment variable loading, and an example implementation for consuming an API. Feel free to explore and modify the codebase according to your specific project requirements.
 
